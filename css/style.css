@@ -1,0 +1,82 @@
+body {
+  /*background-image: url("../Rotina-diaria.png");*/
+  margin: 0;
+  font-family: "Rokkit", sans-serif;
+}
+
+main {
+  background-image: url("../Rotina-diaria.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+header {
+  background-color: #fff0f0;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  color: burlywood;
+  padding: 10px;
+}
+
+.title-1 {
+  text-align: center;
+  padding: 20px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.table-routine {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+tr,
+td {
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 10px;
+  opacity: 0.9;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.section-1 {
+  background-color: burlywood;
+  opacity: 0.9;
+  padding: 3px;
+  margin-left: 300px;
+  margin-right: 300px;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: 19px 15px 25px -7px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 19px 15px 25px -7px rgba(0, 0, 0, 0.7);
+  box-shadow: 19px 15px 25px -7px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+  display: block;
+  text-align: end;
+}
+
+a {
+  display: inline;
+  padding: 5px;
+  text-decoration: none;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-right: 10px;
+  font-weight: 600;
+  color: burlywood;
+}
+
+#color {
+    background-color: chocolate;
+}
